@@ -32,15 +32,6 @@ const projects = [
     color: 'from-violet-500 to-indigo-500',
   },
   {
-    title: 'Blog Platform API',
-    description:
-      'A robust blogging platform backend with user roles, post management, comments system, and tagging functionality using RESTful architecture.',
-    tech: ['Java', 'Spring Boot', 'JPA', 'MySQL', 'REST API'],
-    github: 'https://github.com/inamahmadbaig',
-    icon: 'fas fa-blog',
-    color: 'from-violet-500 to-indigo-500',
-  },
-  {
     title: 'Portfolio Website',
     description:
       'A modern, responsive personal portfolio website built with React and Tailwind CSS showcasing projects, skills, and professional experience.',

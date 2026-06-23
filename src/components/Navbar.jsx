@@ -10,7 +10,6 @@ export default function Navbar() {
     const el = document.getElementById(id)
     if (el) {
       el.scrollIntoView({ behavior: 'smooth' })
-      window.location.hash = id
     }
     setMenuOpen(false)
   }
@@ -18,6 +17,7 @@ export default function Navbar() {
   useEffect(() => {
     const hash = window.location.hash.slice(1)
     if (hash) {
+      setActiveSection(hash)
       setTimeout(() => {
         const el = document.getElementById(hash)
         if (el) el.scrollIntoView({ behavior: 'smooth' })
