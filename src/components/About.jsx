@@ -78,7 +78,9 @@ export default function About() {
                 My expertise lies in building scalable and efficient backend systems
                 using <strong>Java, Spring Boot, and REST APIs</strong>. I specialize in creating
                 robust full-stack applications, RESTful web services, and database-driven
-                solutions with clean, maintainable code.
+                solutions with clean, maintainable code. I leverage <strong>AI-powered tools</strong>
+                and modern development practices to deliver intelligent, high-performance
+                backend solutions. Let's connect on <a href="https://www.linkedin.com/in/inam-ahmad-baig/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-secondary transition-colors">LinkedIn</a> for collaboration and opportunities.
               </motion.p>
               <div className="grid grid-cols-2 gap-4">
                 {[

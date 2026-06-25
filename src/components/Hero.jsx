@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 
-const roles = ['Backend Developer', 'Java Developer', 'Spring Boot Expert', 'REST API Specialist']
+const roles = ['Backend Developer', 'Java Developer', 'Spring Boot Expert', 'REST API Specialist', 'Full Stack Java Developer', 'AI-Powered Solutions']
 
 function useTypewriter(words) {
   const [text, setText] = useState('')
@@ -152,11 +152,20 @@ export default function Hero() {
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: 'easeOut', delay: 1 }}
-          className="flex items-center justify-center gap-6 mt-12"
+          className="flex flex-wrap items-center justify-center gap-3 mt-12"
         >
+          <motion.a
+            href="https://www.linkedin.com/in/inam-ahmad-baig/"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.05 }}
+            className="bg-[#0A66C2] text-white px-5 py-2 rounded-full text-sm font-semibold flex items-center gap-2 hover:bg-[#004182] transition-all duration-300"
+          >
+            <i className="fab fa-linkedin"></i>
+            Connect on LinkedIn
+          </motion.a>
           {[
             { href: 'https://github.com/inamahmadbaig', icon: 'fab fa-github' },
-            { href: 'https://www.linkedin.com/in/inam-ahmad-baig/', icon: 'fab fa-linkedin' },
             { href: 'mailto:inamahamdbaig@gmail.com', icon: 'fas fa-envelope' },
           ].map((link, i) => (
             <motion.a
