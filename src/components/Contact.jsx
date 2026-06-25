@@ -19,6 +19,7 @@ const contactInfo = [
     icon: 'fas fa-map-marker-alt',
     label: 'Location',
     value: 'Seoni, Madhya Pradesh, India',
+    href: 'https://www.google.com/maps/place/Seoni,+Madhya+Pradesh',
   },
   {
     icon: 'fab fa-linkedin-in',
@@ -80,8 +81,7 @@ export default function Contact() {
                     {item.href ? (
                       <a
                         href={item.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        {...(item.label !== 'Phone' ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                         className="text-gray-400 hover:text-primary transition-colors"
                       >
                         {item.value}

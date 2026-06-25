@@ -6,7 +6,7 @@ const projects = [
   {
     title: 'Hospital Management System',
     description:
-      'A full-stack hospital management system with patient records, appointment scheduling, doctor management, and billing using Spring Boot and React.',
+      'A full-stack Java Spring Boot hospital management system with patient records, appointment scheduling, doctor management, and billing using Spring Boot, JPA, and React.',
     tech: ['Java', 'Spring Boot', 'JPA', 'MySQL', 'React', 'REST API'],
     github: 'https://github.com/inamahmadbaig',
     icon: 'fas fa-hospital',

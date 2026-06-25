@@ -15,7 +15,7 @@ const educationData = [
     institution: 'Naresh IT',
     year: '2026',
     description:
-      'Comprehensive full stack Java development training covering Core Java, Spring Boot, Hibernate, JPA, REST APIs, React, MySQL, and project deployment.',
+      'Comprehensive full stack Java development training covering Core Java, Spring Boot, Hibernate, JPA, REST APIs, React, MySQL, and project deployment at Naresh IT, Hyderabad.',
     icon: 'fas fa-laptop-code',
   },
 ]

@@ -74,10 +74,11 @@ export default function About() {
                 transition={{ delay: 0.1 }}
                 className="text-gray-400 leading-relaxed mb-6"
               >
-                I am an MCA graduate with a strong passion for backend development.
+                I am an MCA graduate based in <strong>Seoni, Madhya Pradesh</strong> with a strong passion for backend development.
                 My expertise lies in building scalable and efficient backend systems
-                using Java, Spring Boot, and REST APIs. I enjoy solving complex
-                problems and creating clean, maintainable code.
+                using <strong>Java, Spring Boot, and REST APIs</strong>. I specialize in creating
+                robust full-stack applications, RESTful web services, and database-driven
+                solutions with clean, maintainable code.
               </motion.p>
               <div className="grid grid-cols-2 gap-4">
                 {[

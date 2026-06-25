@@ -104,6 +104,7 @@ export default function Hero() {
         >
           Hi, I&apos;m{' '}
           <span className="gradient-text">Inam Ahmad Baig</span>
+          <span className="sr-only">— Java & Spring Boot Backend Developer from Seoni, Madhya Pradesh</span>
         </motion.h1>
 
         <motion.p
@@ -112,8 +113,8 @@ export default function Hero() {
           transition={{ duration: 0.6, ease: 'easeOut', delay: 0.6 }}
           className="text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          MCA Graduate | Java & Spring Boot Developer | Building robust
-          backend systems with modern technologies
+          MCA Graduate | Java &amp; Spring Boot Backend Developer from Seoni, MP | Building robust
+          REST APIs and backend systems with Spring Boot, Java, and modern technologies
         </motion.p>
 
         <motion.div
