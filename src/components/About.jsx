@@ -64,8 +64,9 @@ export default function About() {
                 viewport={{ once: true }}
                 className="text-2xl font-semibold text-white mb-4"
               >
-                Backend Developer from{' '}
-                <span className="gradient-text">Seoni, MP</span>
+                Java Backend Developer —{' '}
+                <span className="gradient-text">Seoni, MP, India</span>
+                <span className="sr-only"> — Available for remote work worldwide</span>
               </motion.h3>
               <motion.p
                 initial={{ opacity: 0, y: 10 }}
@@ -74,13 +75,14 @@ export default function About() {
                 transition={{ delay: 0.1 }}
                 className="text-gray-400 leading-relaxed mb-6"
               >
-                I am an MCA graduate based in <strong>Seoni, Madhya Pradesh</strong> with a strong passion for backend development.
+                I am an MCA graduate based in <strong>Seoni, Madhya Pradesh, India</strong> with a strong passion for backend development.
+                I am <strong>available for remote opportunities worldwide</strong> — whether you're in the <strong>USA, UK, Canada, Australia, Europe, or anywhere globally</strong>.
                 My expertise lies in building scalable and efficient backend systems
                 using <strong>Java, Spring Boot, and REST APIs</strong>. I specialize in creating
                 robust full-stack applications, RESTful web services, and database-driven
                 solutions with clean, maintainable code. I leverage <strong>AI-powered tools</strong>
                 and modern development practices to deliver intelligent, high-performance
-                backend solutions. Let's connect on <a href="https://www.linkedin.com/in/inam-ahmad-baig/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-secondary transition-colors">LinkedIn</a> for collaboration and opportunities.
+                backend solutions for international clients. Let's connect on <a href="https://www.linkedin.com/in/inam-ahmad-baig/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-secondary transition-colors">LinkedIn</a> for global collaboration and remote opportunities.
               </motion.p>
               <div className="grid grid-cols-2 gap-4">
                 {[

@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="bg-dark min-h-screen">
       <Helmet>
-        <meta name="description" content="Inam Ahmad Baig — MCA Graduate | Java & Spring Boot Backend Developer from Seoni, Madhya Pradesh. Explore portfolio showcasing Spring Boot projects, REST APIs, and full-stack development skills." />
+        <meta name="description" content="Inam Ahmad Baig — MCA Graduate | Java & Spring Boot Backend Developer from Seoni, India. Available for remote opportunities worldwide. Explore portfolio showcasing Spring Boot projects, REST APIs, and full-stack development skills." />
         <meta property="og:title" content="Inam Ahmad Baig | Java & Spring Boot Developer Portfolio" />
         <meta name="twitter:title" content="Inam Ahmad Baig | Java & Spring Boot Developer Portfolio" />
         <title>Inam Ahmad Baig | Java & Spring Boot Developer Portfolio</title>

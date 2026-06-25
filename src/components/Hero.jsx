@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 
-const roles = ['Backend Developer', 'Java Developer', 'Spring Boot Expert', 'REST API Specialist', 'Full Stack Java Developer', 'AI-Powered Solutions']
+const roles = ['Backend Developer', 'Java Developer', 'Spring Boot Expert', 'REST API Specialist', 'Full Stack Java Developer', 'AI-Powered Solutions', 'Open for Remote Work Worldwide']
 
 function useTypewriter(words) {
   const [text, setText] = useState('')
@@ -113,8 +113,7 @@ export default function Hero() {
           transition={{ duration: 0.6, ease: 'easeOut', delay: 0.6 }}
           className="text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          MCA Graduate | Java &amp; Spring Boot Backend Developer from Seoni, MP | Building robust
-          REST APIs and backend systems with Spring Boot, Java, and modern technologies
+          MCA Graduate | Java &amp; Spring Boot Backend Developer from Seoni, MP, India | Open for remote opportunities worldwide | Building robust REST APIs and backend systems
         </motion.p>
 
         <motion.div
